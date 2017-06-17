@@ -8,5 +8,11 @@
 
 .container-post {
 	height: 250px;
+
 	border-radius: 6px;
+}
+
+.crs {
+	display: inline-block;
+	float: left;
 }
