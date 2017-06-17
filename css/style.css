@@ -1,0 +1,11 @@
+.container {
+	background-color: #efefef !important;
+}
+
+.container-fluid {
+	background-color: #e0e0e0 !important;
+}
+
+.container-post {
+	height: 250px;
+}
