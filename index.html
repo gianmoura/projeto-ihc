@@ -12,7 +12,7 @@
 <body>
 	
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top c3">
+		<nav class="navbar navbar-default navbar-fixed-top z1 c3">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		    	<button class="navbar-toggle btn btn-default bc" type="button" data-toggle="collapse" data-target="#btn-toggle" aria-expanded="false">
@@ -25,13 +25,13 @@
 					<img alt="Logo" src="#">
 				</a>
 		    </div>
-		    <div class="navbar-collapse collapse" id="btn-toggle" aria-expanded="false">
-		    	<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<div class="input-group">
+		    <div class="navbar-collapse collapse dropdown" id="btn-toggle" aria-expanded="false">
+		    	<form class="navbar-form navbar-right dropdown" role="search">
+					<div class="form-group dropdown">
+						<div class="input-group dropdown">
 							<input type="text" class="form-control" title="Formulário de busca" placeholder="O que você procura?">
 							
-							<span class="input-group-btn">
+							<span class="input-group-btn dropdown">
 								<button type="button" class="btn btn-default">
 									<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 								</button>
@@ -39,7 +39,7 @@
 								<div class="dropdown btn-group" role="group">
 								    <button type="button" id="btnMenuDrop" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
 								    </button>
-								    <ul class="dropdown-menu" aria-labelledby="btnMenuDrop">
+								    <ul class="dropdown-menu dropdown-menu-right z2" id="dm1" aria-labelledby="btnMenuDrop">
 								      <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Área do Usuário</a></li>
 								      <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Área Inicial</a></li>
 								      <li role="separator" class="divider"></li>
@@ -55,7 +55,7 @@
 		</nav>
 	</header>
 
-	<main>
+	<main class="z1">
 		<br>
 		<br>
 		<br>

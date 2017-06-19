@@ -27,3 +27,12 @@
 .bc {
 	background-color:  #e6e6e6;
 }
+
+
+.z1{
+	z-index: 1 !important;
+}
+
+.z2{
+	z-index: 1000000000 !important;
+}
