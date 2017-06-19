@@ -1,10 +1,23 @@
+.c1{
+	background-color: #5fc0ce;
+}
+.c2{
+	background-color: #36bbce;
+}
+.c3{
+	background-color: #03899c;
+}
+.c4{
+	background-color: #1f6b75;
+}
+
 .container {
 	background-color: #efefef !important;
 }
 
-.container-fluid {
+/*.container-fluid {
 	background-color: #e0e0e0 !important;
-}
+}*/
 
 .container-post {
 	height: 250px;
