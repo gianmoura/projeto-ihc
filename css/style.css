@@ -15,9 +15,9 @@
 	background-color: #efefef !important;
 }
 
-/*.container-fluid {
-	background-color: #e0e0e0 !important;
-}*/
+.navbar-collapse.in {
+	overflow-y: visible !important;
+}
 
 .container-post {
 	height: 250px;
