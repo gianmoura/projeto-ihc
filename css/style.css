@@ -22,8 +22,21 @@
 .container-post {
 	height: 250px;
 	border-radius: 6px;
+	position: relative;
+}
+/*
+.head-post {
+	height: 20%;
 }
 
+.content-post {
+	height: 80%;
+}
+
+.footer-post{
+	height: 20%;
+}
+*/
 .bc {
 	background-color:  #e6e6e6;
 }
