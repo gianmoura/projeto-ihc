@@ -3,7 +3,7 @@ body { padding-top: 70px; }
 	background-color: #5fc0ce;
 }
 .c2{
-	background-color: #36bbce;
+	background-color: #62b1d0;
 }
 .c3{
 	color: #03899c;
@@ -31,8 +31,9 @@ body { padding-top: 70px; }
 .rodape{
 	padding: 10px;
 	margin-top: 20px;
-	background-color:  #1f6b75;
+	background-color:  #62b1d0;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 
