@@ -23,8 +23,6 @@ body { padding-top: 70px; }
 }
 
 .container-post {
-	max-height: 250px !important;
-	min-height: 150px;
 	border-radius: 6px;
 	position: relative;
 
