@@ -1,3 +1,4 @@
+body { padding-top: 70px; }
 .c1{
 	background-color: #5fc0ce;
 }
@@ -5,7 +6,8 @@
 	background-color: #36bbce;
 }
 .c3{
-	background-color: #03899c;
+	color: #03899c;
+	font-weight: bold;
 }
 .c4{
 	background-color: #1f6b75;
@@ -15,37 +17,29 @@
 	background-color: #efefef !important;
 }
 
+
 .navbar-collapse.in {
 	overflow-y: visible !important;
 }
 
 .container-post {
-	height: 250px;
+	max-height: 250px;
+	min-height: 150px;
 	border-radius: 6px;
 	position: relative;
 }
-/*
-.head-post {
-	height: 20%;
+
+.rodape{
+	padding: 10px;
+	margin-top: 20px;
+	background-color:  #1f6b75;
+	text-align: center;
 }
 
-.content-post {
-	height: 80%;
+.post-btn {
+	margin-bottom: 10px;
 }
 
-.footer-post{
-	height: 20%;
-}
-*/
 .bc {
 	background-color:  #e6e6e6;
-}
-
-
-.z1{
-	z-index: 1 !important;
-}
-
-.z2{
-	z-index: 1000000000 !important;
 }
